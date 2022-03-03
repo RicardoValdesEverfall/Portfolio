@@ -1,0 +1,174 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://swiperjs.com/demos/images/nature-9.jpg");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#header-section {
+  background: #000;
+  color: #000;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-content {
+  position: absolute;
+  width: 50%;
+  padding: 20px;
+  left: 10%;
+}
+
+#myVideo {
+
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.logo img {
+  width: 100px;
+}
+
+.info {
+  text-align: left;
+  color: rgb(255 255 255 / 72%);
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+.info-text {
+  text-align: left;
+  color: #fff;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+}
+
+
+.mySwiper3 {
+  max-height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.parallax p,
+.parallax h2 {
+  color: #fff;
+}
+
+#about-project-1 {
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo img {
+    width: 60px;
+  }
+
+  .info {
+    font-size: 9px;
+  }
+
+  .info-text {
+    font-size: 12px;
+  }
+}
